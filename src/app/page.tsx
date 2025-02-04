@@ -1,11 +1,14 @@
+"use client"
+
 import Footer from "@/components/footer/footer";
+import HomeContainer from "@/components/home/homeContainer";
 import Navbar from "@/components/navbar/navbar";
-// import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="w-screen">
       <Navbar />
+      <HomeContainer/>
       <Footer />
     </div>
   );
