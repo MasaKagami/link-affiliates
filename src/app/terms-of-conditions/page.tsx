@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
-import { merriweather } from "@/app/layout"; // Import Merriweather from layout.tsx
+import { merriweather } from "@/styles/fonts"; // Import Merriweather from layout.tsx
 
 const TermsOfService = () => {
     return(

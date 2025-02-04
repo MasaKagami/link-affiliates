@@ -1,18 +1,6 @@
 import type { Metadata } from "next";
-import { Montserrat, Merriweather } from "next/font/google";
+import { montserrat } from "@/styles/fonts"; // Import Montserrat from fonts.ts
 import "./globals.css";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  display: "swap",
-});
-
-const merriweather = Merriweather({
-  subsets: ["latin"],
-  weight: ["300", "400", "700", "900"], // Adjust weights as needed
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Link Affiliates",
@@ -32,5 +20,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-export { merriweather }
