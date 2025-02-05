@@ -12,7 +12,8 @@ const Footer = () => {
                     <h1>CONTACT US</h1>
                     <p>Email: Jack@LinkAffiliates.ca</p>
                     <p>Phone : +1 (604)-710-8652</p>
-                    <Link href="/terms-of-conditions">Terms & Conditions</Link>
+                    <Link href="/terms-of-conditions" className="underline">Terms & Conditions</Link>
+                    <Link href="/privacy-policy" className="underline">Privacy Policy</Link>
                 </div>
             </div>
         </footer>
