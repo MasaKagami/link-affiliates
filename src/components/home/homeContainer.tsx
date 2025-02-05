@@ -5,6 +5,7 @@ import Testimonials from "../testimonials/testimonials";
 import OurTeam from "../ourTeam/ourTeam";
 import Advantage from "../advantage/advantage";
 import AsSeenOn from "../asSeenOn/asSeenOn";
+import Meeting from "../meeting/meeting";
 
 const HomeContainer = () => {
     return(
@@ -15,6 +16,7 @@ const HomeContainer = () => {
             <Testimonials/>
             <OurTeam/>
             <Advantage/>
+            <Meeting/>
             <AsSeenOn/>
         </div>
     )
