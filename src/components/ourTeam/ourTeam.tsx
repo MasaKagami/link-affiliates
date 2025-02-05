@@ -41,6 +41,22 @@ const OurTeam = () => {
                         </div>
                         <div className="flex-1 space-y-5">
                             <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
+                                <Image src="/santi.png" alt="photo of santi" height={200} width={200} className="w-full h-full object-cover">
+                                </Image>
+                            </div>
+                            <div className="flex flex-col gap-4">
+                                <div className="flex flex-col gap-2">
+                                    <h1 className={`text-2xl font-bold ${merriweather.className} `}>Santi Vargas</h1>
+                                    <p className="text-sm font-medium">Account Manager</p>
+                                </div>
+                                <div className="flex flex-col gap-2 text-xs">
+                                    <p>With a business degree from Western University, Santiago has built a software company, leading client acquisition and marketing.</p>
+                                    <p>Drawing from hands-on experience running campaigns for his own business, he applies proven strategies to optimize ads and funnels, helping his clients reach their sales goals.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex-1 space-y-5">
+                            <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
                                 <Image src="/masa.png" alt="photo of masa" height={200} width={200} className="w-full h-full object-cover">
                                 </Image>
                             </div>
@@ -68,22 +84,6 @@ const OurTeam = () => {
                                 <div className="flex flex-col gap-2 text-xs">
                                     <p>Tim is a finance professional with experience in deal advisory, audit, and business development. He holds a Bachelor of Commerce from Queen’s University’s Smith School of Business.</p>
                                     <p>With his experience, Tim has helped facilitate mid-market M&A deals, along with providing lending to SMEs.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex-1 space-y-5">
-                            <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
-                                <Image src="/santi.png" alt="photo of santi" height={200} width={200} className="w-full h-full object-cover">
-                                </Image>
-                            </div>
-                            <div className="flex flex-col gap-4">
-                                <div className="flex flex-col gap-2">
-                                    <h1 className={`text-2xl font-bold ${merriweather.className} `}>Santi Vargas</h1>
-                                    <p className="text-sm font-medium">Account Manager</p>
-                                </div>
-                                <div className="flex flex-col gap-2 text-xs">
-                                    <p>With a business degree from Western University, Santiago has built a software company, leading client acquisition and marketing.</p>
-                                    <p>Drawing from hands-on experience running campaigns for his own business, he applies proven strategies to optimize ads and funnels, helping his clients reach their sales goals.</p>
                                 </div>
                             </div>
                         </div>
