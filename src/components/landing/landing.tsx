@@ -2,7 +2,7 @@ import { merriweather } from "@/styles/fonts"; // Import Merriweather from layou
 
 const Landing = () => {
     return(
-        <div className="relative w-full h-[calc(100vh-90px)] py-20">
+        <div id="home" className="relative w-full h-[calc(100vh-90px)] py-20">
             
             {/* Background Image with Blur */}
             <div className="absolute inset-0 bg-[url('/house2.jpg')] bg-cover bg-center blur-sm"></div>

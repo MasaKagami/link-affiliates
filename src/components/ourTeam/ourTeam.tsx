@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const OurTeam = () => {
     return(
-        <div className="w-full h-full py-32 ">
+        <div id="teams" className="w-full h-full py-32 ">
 
             <div className="relative w-full h-full flex flex-col justify-between items-center max-w-[75%] m-auto">
                 <div className="flex flex-col gap-10 items-center w-full">

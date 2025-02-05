@@ -2,7 +2,7 @@ import { merriweather } from "@/styles/fonts"; // Import Merriweather from layou
 
 const Clients = () => {
     return(
-        <div className="relative w-full h-full py-32 ">
+        <div id="clients" className="relative w-full h-full py-32 ">
 
             <div className="absolute w-1/2 inset-0 bg-white"></div>
             <div className="absolute w-1/2 inset-0 left-1/2 bg-gray-300"></div>

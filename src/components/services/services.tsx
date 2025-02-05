@@ -2,7 +2,7 @@ import { merriweather } from "@/styles/fonts"; // Import Merriweather from layou
 
 const Services = () => {
     return(
-        <div className="w-full h-full py-32 ">
+        <div id="services" className="w-full h-full py-32 ">
             <div className="w-full h-full flex flex-col gap-10 justify-between items-center max-w-[75%] m-auto">
                 <h1 className={`text-center text-5xl font-bold ${merriweather.className} `}>Our Services</h1>
                 <div className="flex gap-4 justify-between w-full">
