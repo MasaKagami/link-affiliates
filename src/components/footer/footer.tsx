@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="w-full h-full max-w-[75%] gap-10 flex justify-between items-center m-auto my-auto ">
                 {/* <h1 className={`${merriweather.className} font-bold text-2xl`}>LINK AFFILIATES</h1> */}
                 <div className="flex flex-col justify-end h-full  max-h-[50%] w-full">
-                    <h1 className={`text-7xl font-bold ${merriweather.className}`}>Let&apos;s Talk</h1>
+                    <h1 className={`text-6xl font-bold ${merriweather.className}`}>Let&apos;s Talk</h1>
                 </div>
                 
                 

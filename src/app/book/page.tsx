@@ -7,7 +7,7 @@ const Book = () => {
             <Navbar/>
             <div className="flex flex-col h-[calc(100vh-90px)] w-screen overflow-hidden justify-center">
                 <iframe
-                    src="https://calendly.com/nagamasakagami/30min"
+                    src="https://calendly.com/jack-linkaffiliates/30min"
                     width="100%"
                     height="100%"
                     className="border-none w-full"
