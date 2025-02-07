@@ -4,7 +4,7 @@ const Advantage = () => {
     return(
         <div className="relative w-full h-full py-14 bg-white">
 
-            <div className="absolute w-1/2 inset-0 bg-[url('/solar.jpg')] bg-cover bg-center"></div>
+            <div className="absolute w-1/2 inset-0 bg-[url('/solar.webp')] bg-cover bg-center"></div>
             <div className="absolute w-1/2 inset-0 left-1/2 "></div>
 
 

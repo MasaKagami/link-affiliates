@@ -5,7 +5,7 @@ const Meeting = () => {
         <div id="meeting" className="relative w-full h-full py-16 bg-white">
 
             <div className="absolute w-1/2 inset-0"></div>
-            <div className="absolute w-1/2 inset-0 left-1/2 bg-[url('/meeting.jpg')] bg-cover bg-center"></div>
+            <div className="absolute w-1/2 inset-0 left-1/2 bg-[url('/meeting.webp')] bg-cover bg-center"></div>
 
 
             <div className="relative w-full h-full flex justify-between items-center max-w-[75%] m-auto">

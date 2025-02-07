@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="w-full h-[300px] border-t border-black">
             <div className="w-full h-full max-w-[75%] flex justify-between items-center m-auto">
                 {/* <h1 className={`${merriweather.className} font-bold text-2xl`}>LINK AFFILIATES</h1> */}
-                <Image alt="logo" src="/logo.png" width={200} height={200} className=""/>
+                <Image alt="logo" src="/logo.webp" width={200} height={200} className=""/>
                 <div className="flex flex-col">
                     <h1>CONTACT US</h1>
                     <p>Email: Jack@LinkAffiliates.ca</p>

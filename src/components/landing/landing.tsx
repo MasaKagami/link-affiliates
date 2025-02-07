@@ -5,7 +5,7 @@ const Landing = () => {
         <div id="home" className="relative w-full h-[calc(100vh-90px)] py-20">
             
             {/* Background Image with Blur */}
-            <div className="absolute inset-0 bg-[url('/house2.jpg')] bg-cover bg-center blur-sm"></div>
+            <div className="absolute inset-0 bg-[url('/house2.webp')] bg-cover bg-center blur-sm"></div>
 
             {/* Content with a backdrop effect */}
             <div className="relative w-full h-full flex max-w-[75%] m-auto items-center ">
