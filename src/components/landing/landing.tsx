@@ -1,5 +1,5 @@
 import { merriweather } from "@/styles/fonts"; // Import Merriweather from layout.tsx
-import Link from "next/link";
+// import Link from "next/link";
 import MeetingButton from "../meetingButton/meetingButton";
 
 const Landing = () => {
