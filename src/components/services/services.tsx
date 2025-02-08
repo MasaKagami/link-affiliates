@@ -3,10 +3,12 @@ import { merriweather } from "@/styles/fonts"; // Import Merriweather from layou
 const Services = () => {
     return(
         <div id="services" className="w-full h-full py-32 ">
-            <div className="w-full h-full flex flex-col gap-10 justify-between items-center max-w-[75%] m-auto">
+            <div className="w-full h-full flex flex-col gap-10 justify-between items-center max-w-[90%] sm:max-w-[75%] m-auto">
                 <h1 className={`text-center text-5xl font-bold ${merriweather.className} `}>Our Services</h1>
-                <div className="flex gap-4 justify-between w-full">
-                    
+                <div className="flex lg:flex-row flex-col gap-4 justify-between w-full">
+                {/* <div className="grid lg:grid-cols-3 grid-rows-3 lg:space-x-4 space-y-4 w-full"> */}
+
+
                     <div className="flex-1 bg-white p-8 rounded-lg shadow-md">
                         <h2 className={`text-2xl font-semibold ${merriweather.className} `}>Social Media Advertising</h2>
                         <ul className="list-disc mt-4 text-gray-700 pl-3 space-y-2">

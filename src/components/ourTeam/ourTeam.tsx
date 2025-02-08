@@ -5,10 +5,12 @@ const OurTeam = () => {
     return(
         <div id="teams" className="w-full h-full py-20 ">
 
-            <div className="relative w-full h-full flex flex-col justify-between items-center max-w-[75%] m-auto">
+            <div className="relative w-full h-full flex flex-col justify-between items-center max-w-[90%] sm:max-w-[75%] m-auto">
                 <div className="flex flex-col gap-10 items-center w-full">
                     <h1 className={`text-5xl font-bold ${merriweather.className} `}>Our Team</h1>
-                    <div className="w-full flex justify-between gap-8">
+                    {/* <div className="w-full flex justify-between gap-8"> */}
+                    <div className="w-full grid xl:grid-cols-5 grid-cols-2 space-y-8 xl:space-y-0 space-x-2 xl:space-x-1">
+
                         <div className="flex-1 space-y-5">
                             <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
                                 <Image src="/karen.webp" alt="photo of karen" height={200} width={200} className="w-full h-full object-cover">
