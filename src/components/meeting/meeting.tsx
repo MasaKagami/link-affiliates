@@ -4,14 +4,14 @@ import MeetingButton from "../meetingButton/meetingButton";
 
 const Meeting = () => {
     return(
-        <div id="meeting" className="relative w-full h-full py-16 bg-white">
+        <div id="meeting" className="relative w-full h-full sm:py-16 border-b">
 
-            <div className="absolute w-1/2 inset-0"></div>
-            <div className="absolute w-1/2 inset-0 left-1/2 bg-[url('/meeting.webp')] bg-cover bg-center"></div>
+            <div className="hidden sm:block absolute w-1/2 inset-0"></div>
+            <div className="hidden sm:block absolute w-1/2 inset-0 left-1/2 bg-[url('/meeting.webp')] bg-cover bg-center"></div>
 
-
-            <div className="relative w-full h-full flex justify-between items-center max-w-[75%] m-auto">
-                <div className="w-1/2 flex flex-col gap-8 px-16 items-start">
+            <div className="sm:hidden flex w-full h-[300px] bg-[url('/meeting.webp')] bg-cover bg-center"></div>
+            <div className="relative w-full h-full flex sm:flex-row flex-col  sm:py-0 py-20 justify-between items-center max-w-[90%] sm:max-w-[75%] m-auto">
+                <div className="sm:w-1/2 w-full flex flex-col gap-8 px-4 sm:px-8 lg:px-10 xl:px-16 items-start">
                     <h1 className={`text-start text-5xl font-bold ${merriweather.className}`}>
                         Book a Meeting
                     </h1>
@@ -27,7 +27,7 @@ const Meeting = () => {
                     </Link> */}
                     <MeetingButton/>
                 </div>
-                <div className="w-1/2"></div>  
+                <div className="sm:w-1/2 w-full"></div>
             </div>
         </div>
     )

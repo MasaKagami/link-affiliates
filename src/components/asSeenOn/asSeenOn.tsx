@@ -9,15 +9,15 @@ const AsSeenOn = () => {
                 <h1 className={`text-2xl font-bold ${merriweather.className}`}>
                     As Seen On
                 </h1>
-                <div className="flex gap-24 items-center">
+                <div className="flex sm:flex-row flex-col gap-10 sm:gap-24 items-center">
                     <div className="flex-1">
-                        <Link href="https://www.theglobeandmail.com/investing/markets/markets-news/GetNews/26671423/link-affiliates-generate-highintent-highquality-leads-for-home-improvement-businesses-throughout-north-america/"><Image src="/globe-and-mail.webp" alt="globe and mail logo" width={200} height={200} className="h-32 w-auto"></Image></Link>
+                        <Link href="https://www.theglobeandmail.com/investing/markets/markets-news/GetNews/26671423/link-affiliates-generate-highintent-highquality-leads-for-home-improvement-businesses-throughout-north-america/"><Image src="/globe-and-mail.webp" alt="globe and mail logo" width={200} height={200} className="sm:w-[100%] h-auto"></Image></Link>
                     </div>
                     <div className="flex-1">
-                        <Link href="https://www.barchart.com/story/news/26671391/link-affiliates-generate-highintent-highquality-leads-for-home-improvement-businesses-throughout-north-america"><Image src="/barchart.webp" alt="barchart logo" width={200} height={200} className="h-14 w-auto"></Image></Link>
+                        <Link href="https://www.barchart.com/story/news/26671391/link-affiliates-generate-highintent-highquality-leads-for-home-improvement-businesses-throughout-north-america"><Image src="/barchart.webp" alt="barchart logo" width={200} height={200} className="sm:w-[100%] h-auto"></Image></Link>
                     </div>
-                    <div className="flex-1">
-                        <Image src="/fox-40.webp" alt="fox 40 logo" width={200} height={200} className="h-24 w-auto"></Image>
+                    <div className="flex-1 ">
+                        <Image src="/fox-40.webp" alt="fox 40 logo" width={200} height={200} className="sm:w-[100%] h-auto"></Image>
                     </div>
                 </div>
             </div>
