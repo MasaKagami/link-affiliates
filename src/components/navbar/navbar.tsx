@@ -12,13 +12,14 @@ const Navbar = () => {
     return(
         <nav className="sticky top-0 z-50 w-screen h-[90px] bg-white border-b">
             <div className="flex w-full h-full justify-start gap-20 items-center max-w-[95%] m-auto">
-                <Link href="/">
-                    <Image alt="logo" src="/logo.webp" width={200} height={200} className=""/>
-                </Link>
-
+                <div className="w-full">
+                    <Link href="/">
+                        <Image alt="logo" src="/logo.webp" width={200} height={200} className=""/>
+                    </Link>
+                </div>
                 {/* hide this when not in "/" */}
                 {pathname === "/" ? (
-                    <div className="hidden sm:flex justify-start gap-12 items-center h-full">
+                    <div className="hidden lg:flex justify-start gap-12 items-center h-full">
                         <LinkTo to={"home"} smooth={true} duration={700} offset={-90} className="cursor-pointer inline-flex items-end pb-[15px] h-full border-b-4 border-transparent hover:border-[#b1dae7] whitespace-nowrap">Home </LinkTo>
                         <LinkTo to={"services"} smooth={true} duration={700} offset={-90} className="cursor-pointer inline-flex items-end pb-[15px] h-full border-b-4 border-transparent hover:border-[#b1dae7] whitespace-nowrap">Our Services </LinkTo>
                         <LinkTo to={"testimonials"} smooth={true} duration={700} offset={-90} className="cursor-pointer inline-flex items-end pb-[15px] h-full border-b-4 border-transparent hover:border-[#b1dae7] whitespace-nowrap">Testimonials </LinkTo>
