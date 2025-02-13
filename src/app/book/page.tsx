@@ -11,7 +11,7 @@ const Book = () => {
                     width="100%"
                     height="100%"
                     className="border-none w-full"
-                    style={{ minHeight: "100vh", overflow: "hidden" }}
+                    style={{ minHeight: "100svh", overflow: "hidden" }}
                 ></iframe>
             </div>
             <Footer/>
