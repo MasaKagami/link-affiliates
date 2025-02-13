@@ -2,21 +2,18 @@ import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
 
 const Book = () => {
-    return(
+    return (
         <>
-            <Navbar/>
-            <div className="flex flex-col h-[calc(100svh-90px)] w-screen overflow-hidden justify-center">
+            <Navbar />
+            <div className="flex flex-col h-[calc(100dvh-90px)] w-screen justify-center">
                 <iframe
                     src="https://calendly.com/jack-linkaffiliates/30min"
-                    width="100%"
-                    height="100%"
-                    className="border-none w-full"
-                    style={{ minHeight: "100svh", overflow: "hidden" }}
+                    className="flex-grow border-none w-full h-full"
                 ></iframe>
             </div>
-            <Footer/>
+            <Footer />
         </>
-    )
-}
+    );
+};
 
 export default Book;
