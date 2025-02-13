@@ -12,7 +12,7 @@ const OurTeam = () => {
                     <div className="w-full grid xl:grid-cols-5 grid-cols-2 space-x-4 xl:space-x-4">
 
                         <div className="flex-1 space-y-5 my-4">
-                            <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
+                            <div className="w-[150px] sm:w-[200px] h-[150px] sm:h-[200px] rounded-full overflow-hidden">
                                 <Image src="/karen.webp" alt="photo of karen" height={200} width={200} className="w-full h-full object-cover">
                                 </Image>
                             </div>
@@ -26,7 +26,7 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className="flex-1 space-y-5 my-4">
-                            <div className="w-[200px] h-[200px] rounded-full overflow-hidden border">
+                            <div className="w-[150px] sm:w-[200px] h-[150px] sm:h-[200px] rounded-full overflow-hidden border">
                                 <Image src="/jack.webp" alt="photo of jack" height={200} width={200} className="w-full h-full object-cover object-[50%_-70%]">
                                 </Image>
                             </div>
@@ -42,7 +42,7 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className="flex-1 space-y-5 my-4">
-                            <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
+                            <div className="w-[150px] sm:w-[200px] h-[150px] sm:h-[200px] rounded-full overflow-hidden">
                                 <Image src="/santi.webp" alt="photo of santi" height={200} width={200} className="w-full h-full object-cover">
                                 </Image>
                             </div>
@@ -58,7 +58,7 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className="flex-1 space-y-5 my-4">
-                            <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
+                            <div className="w-[150px] sm:w-[200px] h-[150px] sm:h-[200px] rounded-full overflow-hidden">
                                 <Image src="/masa.webp" alt="photo of masa" height={200} width={200} className="w-full h-full object-cover">
                                 </Image>
                             </div>
@@ -74,7 +74,7 @@ const OurTeam = () => {
                             </div>
                         </div>
                         <div className="flex-1 space-y-5 my-4">
-                            <div className="w-[200px] h-[200px] rounded-full overflow-hidden">
+                            <div className="w-[150px] sm:w-[200px] h-[150px] sm:h-[200px] rounded-full overflow-hidden">
                                 <Image src="/tim.webp" alt="photo of masa" height={200} width={200} className="w-full h-full object-cover object-[0_25%]">
                                 </Image>
                             </div>
