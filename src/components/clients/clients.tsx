@@ -19,9 +19,6 @@ const Clients = () => {
                     <video
                         className="w-full h-auto"
                         controls
-                        autoPlay
-                        loop
-                        muted
                     >
                         <source src="/video/clientVideo.webm" type="video/webm" />
                         Your browser does not support the video tag.
