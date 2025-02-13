@@ -37,30 +37,29 @@ const Navbar = () => {
                         <NavLink to="meeting">Contact</NavLink>
                     </div>
                 ) : (
-                    <Link href="/" className="w-full flex justify-end gap-4">
+                    <Link href="/" className="w-full flex justify-end gap-2">
                         <div className="btn rounded-full btn-ghost border-black hover:border-black">
                             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
-                            <p className="font-semibold">Back to Home</p>
+                            <p className="font-semibold text-sm">Back to Home</p>
                         </div>
                     </Link>
                 )}
 
                 {/* Mobile Menu Button */}
-                <button 
-                    className="lg:hidden focus:outline-none"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                    aria-label="Toggle Menu"
-                >
-                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="black">
-                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
-                    </svg>
-                </button>
+                {pathname === "/" && (
+                    <button 
+                        className="lg:hidden focus:outline-none"
+                        onClick={() => setMenuOpen(!menuOpen)}
+                        aria-label="Toggle Menu"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="black">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                        </svg>
+                    </button>
+                )}
             </div>
 
-            
-
-
-
+        
             {/* Mobile Sidebar Menu */}
             <div
                 className={`fixed top-0 right-0 h-full w-[60%] bg-white shadow-lg transform ${
