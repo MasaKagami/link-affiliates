@@ -12,16 +12,13 @@ const Testimonials = () => {
                 </div>
                 <div className="flex sm:flex-row flex-col gap-10 sm:gap-0">
                     <div className="sm:w-1/2 w-full">
-                        <video
-                            className="w-full h-auto"
-                            controls
-                            autoPlay
-                            loop
-                            muted
-                        >
-                            <source src="/video/testimonial.webm" type="video/webm" />
-                            Your browser does not support the video tag.
-                        </video>
+                    <video
+                        className="w-full h-auto"
+                        controls
+                    >
+                        <source src="/video/testimonial.webm" type="video/webm" />
+                        Your browser does not support the video tag.
+                    </video>
                         {/* <h1 className="bg-gray-800 text-white w-[500px] h-[300px] text-center">VIDEO</h1> */}
                     </div>
                     <div className="sm:w-1/2 w-full flex flex-col justify-center items-start gap-4 px-4 sm:px-4 lg:px-10 xl:px-16">
