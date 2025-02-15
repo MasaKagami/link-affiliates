@@ -65,7 +65,7 @@ const OurTeam = () => {
                             <div className="flex flex-col gap-4">
                                 <div className="flex flex-col gap-2">
                                     <h1 className={`text-xl sm:text-2xl font-bold ${merriweather.className} `}>Nagamasa Kagami</h1>
-                                    <p className="text-sm font-medium">CTO</p>
+                                    <p className="text-sm font-medium">Lead Software Developer</p>
                                 </div>
                                 <div className="flex flex-col gap-2  text-xs">
                                     <p>Currently completing his Electrical Engineering degree with a Software Engineering minor at McGill University, Nagamasa has worked on various software projects, specializing in frontend development. Most recently working as a lead frontend engineer at a startup.</p>
