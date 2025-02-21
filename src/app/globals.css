@@ -76,3 +76,123 @@ body {
 .cta:active {
   transform: scale(0.95);
 }
+
+/* Meeting BUTTON white text*/
+.cta-white {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta-white:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #fa7000;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta-white span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: white;
+}
+
+.cta-white svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: white;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta-white:hover:before {
+  width: 100%;
+  background: #fa7000;
+}
+
+.cta-white:hover svg {
+  transform: translateX(0);
+}
+
+.cta-white:active {
+  transform: scale(0.95);
+}
+
+/* Meeting BUTTON small*/
+.cta-small {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta-small:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #fa7000;
+  width: 35px;
+  height: 35px;
+  transition: all 0.3s ease;
+  margin-top: 4px;
+}
+
+.cta-small span {
+  position: relative;
+  /* font-family: "Ubuntu", sans-serif; */
+  /* font-size: 18px; */
+  /* font-weight: 700; */
+  letter-spacing: 0.05em;
+  color: black;
+  white-space: nowrap;
+}
+
+.cta-small svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: black;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta-small:hover:before {
+  width: 100%;
+  background: #fa7000;
+}
+
+.cta-small:hover svg {
+  transform: translateX(0);
+}
+
+.cta-small:active {
+  transform: scale(0.95);
+}
