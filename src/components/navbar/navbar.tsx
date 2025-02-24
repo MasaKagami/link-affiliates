@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="flex w-full h-full justify-between gap-20 items-center max-w-[95%] m-auto">
                 <div className="">
                     <Link href="/">
-                        <Image alt="logo" src="/logo.webp" width={200} height={200} className=""/>
+                        <Image alt="logo" src="/logo.webp" width={200} height={200} className="w-52 h-auto"/>
                     </Link>
                 </div>
 
@@ -26,7 +26,7 @@ const Navbar = () => {
                 {/* hide this when not in "/" */}
                 {pathname === "/" ? (
                     <>
-                        <div className="hidden lg:flex justify-start gap-12 items-center text-white h-full">
+                        <div className="hidden xl:flex justify-start gap-12 items-center text-white h-full">
                             <NavLink to="home">Home</NavLink>
                             <NavLink to="services">Our Services</NavLink>
                             <NavLink to="testimonials">Testimonials</NavLink>
@@ -53,7 +53,7 @@ const Navbar = () => {
                                 </span>
                             </Link>
                         </div> */}
-                        <div className="hidden lg:flex h-full items-end pb-[15px]">
+                        <div className="hidden xl:flex h-full items-end pb-[15px]">
                             <MeetingButtonSmall/>
                         </div>
                     </>
@@ -69,7 +69,7 @@ const Navbar = () => {
                 {/* Mobile Menu Button */}
                 {pathname === "/" && (
                     <button 
-                        className="lg:hidden focus:outline-none"
+                        className="xl:hidden focus:outline-none"
                         onClick={() => setMenuOpen(!menuOpen)}
                         aria-label="Toggle Menu"
                     >
