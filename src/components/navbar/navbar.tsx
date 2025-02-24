@@ -115,7 +115,7 @@ const NavLink = ({ to, children, onClick }: { to: string; children: React.ReactN
         <LinkTo 
             to={to}
             smooth={true}
-            duration={700}
+            duration={1600}
             offset={-90}
             onClick={onClick}
             className="cursor-pointer inline-flex items-end pb-[15px] h-full border-b-4 border-transparent hover:border-[#b1dae7] font-light whitespace-nowrap"
