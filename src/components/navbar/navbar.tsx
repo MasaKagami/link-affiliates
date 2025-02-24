@@ -73,7 +73,7 @@ const Navbar = () => {
                         onClick={() => setMenuOpen(!menuOpen)}
                         aria-label="Toggle Menu"
                     >
-                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="black">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="white">
                             <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
                         </svg>
                     </button>
@@ -83,7 +83,7 @@ const Navbar = () => {
         
             {/* Mobile Sidebar Menu */}
             <div
-                className={`fixed top-0 right-0 h-full w-[60%] bg-white shadow-lg transform ${
+                className={`fixed top-0 right-0 h-full w-[60%] bg-black shadow-lg transform ${
                     menuOpen ? "translate-x-0" : "translate-x-full"
                 } transition-transform duration-300 ease-in-out lg:hidden`}
             >
@@ -92,12 +92,12 @@ const Navbar = () => {
                     onClick={() => setMenuOpen(false)}
                     aria-label="Close Menu"
                 >
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="black">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
                         <path d="M480-410 250-180l-70-70 230-230-230-230 70-70 230 230 230-230 70 70-230 230 230 230-70 70-230-230Z"/>
                     </svg>
                 </button>
 
-                <div className="flex flex-col items-start gap-6 mt-20 pl-6">
+                <div className="flex flex-col items-start gap-6 mt-20 pl-6 text-white">
                     <NavLink to="home" onClick={() => setMenuOpen(false)}>Home</NavLink>
                     <NavLink to="services" onClick={() => setMenuOpen(false)}>Our Services</NavLink>
                     <NavLink to="testimonials" onClick={() => setMenuOpen(false)}>Testimonials</NavLink>
