@@ -2,7 +2,13 @@ import Link from "next/link";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { merriweather } from "@/styles/fonts"; // Import Merriweather from layout.tsx
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+    title: "Privacy Policy - Link Affiliates",
+    description: "Read our privacy policy to understand how we handle your data.",
+  };
+  
 const PrivacyPolicy = () => {
     return(
         <>

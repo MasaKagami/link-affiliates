@@ -1,5 +1,9 @@
-// import Footer from "@/components/footer/footer";
-// import Navbar from "@/components/navbar/navbar";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Book a Meeting - Link Affiliates",
+  description: "Schedule a meeting with Link Affiliates to discuss your marketing needs.",
+};
 
 const Book = () => {
     return (

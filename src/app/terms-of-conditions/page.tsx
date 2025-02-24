@@ -2,6 +2,12 @@ import Link from "next/link";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
 import { merriweather } from "@/styles/fonts"; // Import Merriweather from layout.tsx
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms and Conditions - Link Affiliates",
+  description: "Review our terms and conditions for using Link Affiliates.",
+};
 
 const TermsOfService = () => {
     return(
