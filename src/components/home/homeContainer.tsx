@@ -7,9 +7,16 @@ import Advantage from "../advantage/advantage";
 import AsSeenOn from "../asSeenOn/asSeenOn";
 import Meeting from "../meeting/meeting";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Link Affiliates - Top Affiliate Marketing Platform",
+  description: "Link Affiliates helps businesses create and manage high-converting affiliate marketing campaigns. Schedule a meeting today!",
+};
+
 const HomeContainer = () => {
     return(
-        <div className="w-full h-full flex flex-col min-h-screen ">
+        <main className="w-full h-full flex flex-col min-h-screen ">
             <Landing/> 
             <Services/>
             <Clients/>
@@ -18,7 +25,7 @@ const HomeContainer = () => {
             <Advantage/>
             <Meeting/>
             <AsSeenOn/>
-        </div>
+        </main>
     )
 };
 
