@@ -14,7 +14,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return(
-        <nav className="sticky top-0 z-50 w-screen h-[90px] bg-white border-b">
+        <nav className="sticky top-0 z-50 w-screen h-[90px] bg-black">
             <div className="flex w-full h-full justify-between gap-20 items-center max-w-[95%] m-auto">
                 <div className="">
                     <Link href="/">
@@ -26,7 +26,7 @@ const Navbar = () => {
                 {/* hide this when not in "/" */}
                 {pathname === "/" ? (
                     <>
-                        <div className="hidden lg:flex justify-start gap-12 items-center h-full">
+                        <div className="hidden lg:flex justify-start gap-12 items-center text-white h-full">
                             <NavLink to="home">Home</NavLink>
                             <NavLink to="services">Our Services</NavLink>
                             <NavLink to="testimonials">Testimonials</NavLink>

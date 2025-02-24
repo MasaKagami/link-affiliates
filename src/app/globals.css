@@ -167,7 +167,7 @@ body {
   /* font-size: 18px; */
   /* font-weight: 700; */
   letter-spacing: 0.05em;
-  color: black;
+  color: white;
   white-space: nowrap;
 }
 
@@ -178,7 +178,7 @@ body {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: black;
+  stroke: white;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
